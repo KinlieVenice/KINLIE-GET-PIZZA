@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GET PIZZA - Home</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="icon" href="../IMG/logoo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header
+      class="header py-5 fixed w-full z-50 bg-white shadow-[0_8px_24px_-15px_rgba(149,157,165,0.2)]"
+    >
+      <div class="container">
+        <div class="header__wrapper flex justify-between items-center">
+          <img class="w-[8rem]" src="../IMG/LOGO.png" alt="" />
+          <ul class="header__nav">
+            <li><a href="./home.html">HOME</a></li>
+            <li><a href="./about.html">ABOUT</a></li>
+            <li><a href="./menu.html">MENU</a></li>
+            <li><a href="./contacts.html">CONTACTS</a></li>
+          </ul>
+          <div class="toggle__menu">
+            <span class=""></span>
+            <span class=""></span>
+          </div>
+          <div class="backdrop"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ANNOUNCEMENT -->
+    <section
+      class="announce fixed w-full z-40 bg-white pt-28 pb-1 text-center font-semibold text-primary leading-3"
+    >
+      <div class="container">
+        <div class="announce__wrapper">
+          <small
+            ><i class="fa-solid fa-bullhorn"></i> &nbsp; This website provides
+            information about our store. Online transactions are coming</small
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- MENU BANNER -->
+    <section class="menuBanner">
+      <div
+        class="menuBanner__wrapper bg-bgMenu bg-cover bg-no-repeat h-screen w-full flex flex-col items-center justify-center"
+      >
+        <h1
+          class="text-white font-semibold max-w-96 lg:max-w-[50rem] lg:text-center"
+        >
+          ALWAYS FRESH & READY TO BE SERVED.
+        </h1>
+      </div>
+    </section>
+
+    <!-- MENU SECTION -->
+    <section class="menuSection bg-tertiary py-10 text-white">
+      <div class="container">
+        <div class="menuSection__wrapper max-w-[40rem] mx-auto">
+          <!-- menu tab -->
+          <div
+            class="menuSection__tab bg-secondary rounded-2xl flex items-center p-3 justify-between text-center"
+          >
+            <a class="menu__btn active btn bg-secondaryy-menu" id="tabs-1"
+              >PIZZA</a
+            >
+            <a class="menu__btn btn bg-secondaryy-menu" id="tabs-2">BURGER</a>
+            <a class="menu__btn btn bg-secondaryy-menu" id="tabs-3">CHICKEN</a>
+            <a class="menu__btn btn bg-secondaryy-menu" id="tabs-4">DRINKS</a>
+            <a class="menu__btn btn bg-secondaryy-menu" id="tabs-5">CAKE</a>
+          </div>
+          <!-- offer content -->
+          <div class="menuSection__content">
+            <!-- pizza -->
+            <div class="offer__details active lg:pt-5" id="tabs-1-content">
+              <div class="offer__details--wrap grid grid-cols-3 gap-5">
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="./re" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- burger -->
+            <div class="offer__details lg:pt-5" id="tabs-2-content">
+              <div class="offer__details--wrap grid grid-cols-3 gap-5">
+                <div class="menu__cards">
+                  <img src="../IMG/CHEESE BURGER.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>CHEESE BURGER</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- chicken -->
+            <div class="offer__details lg:pt-5" id="tabs-3-content">
+              <div class="offer__details--wrap grid grid-cols-3 gap-5">
+                <div class="menu__cards">
+                  <img src="../IMG/CHICKEN WITH BREAD.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>CHICKEN BREAD</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- drinks -->
+            <div class="offer__details lg:pt-5" id="tabs-4-content">
+              <div class="offer__details--wrap grid grid-cols-3 gap-5">
+                <div class="menu__cards">
+                  <img src="../IMG/ORANGE DRINK.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>ORANGE JUICE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- cake -->
+            <div class="offer__details lg:pt-5" id="tabs-5-content">
+              <div class="offer__details--wrap grid grid-cols-3 gap-5">
+                <div class="menu__cards">
+                  <img src="../IMG/MUFFIN-CAKE.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>MUFFIC CAKE</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="./recipe.html" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+                <div class="menu__cards">
+                  <img src="../IMG/prosciutto.png" alt="" />
+                  <div class="offer__cards--text">
+                    <h4>BBQ PIZZA</h4>
+                    <p>$25.00</p>
+                    <ul>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                      <li><i class="fa-solid fa-star"></i></li>
+                    </ul>
+                    <a href="" class="btn bg-primaryy-outline">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta bg-primary text-white py-10 lg:pb-0">
+      <div class="container">
+        <div
+          class="cta__wrapper flex flex-col items-center justify-center text-center lg:flex-row"
+        >
+          <img class="hidden lg:block lg:w-96" src="../IMG/chef.png" alt="" />
+          <div class="cta__details">
+            <h3 class="font-bold">LET'S CONNECT</h3>
+            <p class="mb-5">and get a 10% off bill offers and invites</p>
+            <div class="cta__input bg-white p-3">
+              <input
+                class="px-3 py-2 focus:text-black focus:outline-none"
+                type="text"
+                placeholder="YOUR EMAIL ADDRESS"
+              />
+              <a class="btn bg-secondaryy" href="">SUBSCRIBE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer py-7">
+      <div class="container">
+        <div
+          class="footer__wrapper flex flex-col items-center justify-center text-center lg:gap-10"
+        >
+          <img class="mb-6" src="../IMG/LOGO.png" alt="" />
+          <div
+            class="footer__details flex flex-col gap-5 mb-5 lg:flex-row lg:gap-20"
+          >
+            <ul>
+              <li><h3 class="font-bold">ADDRESS</h3></li>
+              <li>
+                <p>
+                  570 8th Ave, New York, NY <br />
+                  10018 United States
+                </p>
+              </li>
+            </ul>
+            <ul>
+              <li><h3 class="font-bold">BOOK A TABLE</h3></li>
+              <li>
+                <p>
+                  Dogfood Ocg Sliders Foodtruch. <br />
+                  Under Om Oss Kan Ni Lasa
+                </p>
+              </li>
+            </ul>
+            <ul>
+              <li><h3 class="font-bold">OPENING HOURS</h3></li>
+              <li>
+                <p>
+                  Monday - Friday <br />
+                  10:00 AM - 11:00 PM
+                </p>
+              </li>
+            </ul>
+          </div>
+          <h4 class="text-primary">0123456987</h4>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+    <script src="./js/toggle__menu.js"></script>
+    <script src="./js/accordion.js"></script>
+    <script src="./js/menutabs.js"></script>
+    <script src="./js/slider.js"></script>
+  </body>
+</html>

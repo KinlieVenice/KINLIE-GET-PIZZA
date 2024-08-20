@@ -55,9 +55,9 @@
     <!-- VIDEO -->
     <section class="video pt-40 pb-10">
       <div class="container">
-        <div class="video__wrapper flex flex-col items-center justify-between">
+        <div class="video__wrapper flex flex-col items-center justify-between lg:flex-row">
           <iframe
-            class="w-96 h-72"
+            class="w-96 h-72 lg:w-[50rem] lg:h-[30rem]"
             width="600"
             height="415"
             src="https://www.youtube.com/embed/Y6MHE0-CQAs?si=RlFO6G3bjHTHHMPM"
@@ -72,7 +72,7 @@
               SERVING GET PIZZAS <br />
               SINCE 1985
             </h1>
-            <p>
+            <p class="lg:max-w-[40rem]">
               We would like to take this opportunity to welcome you at our Pizza
               House. We are offering a warm, friendly atmosphere to share a meal
               with family and friends at any time of the day or evening.
@@ -86,7 +86,7 @@
     <section class="story py-10">
       <div class="container">
         <h3 class="font-bold mb-10 text-center">OUR STORY</h3>
-        <div class="story__wrapper">
+        <div class="story__wrapper lg:grid lg:grid-cols-2 lg:gap-10 lg:items-center lg:justify-center">
           <div class="story__content text-justify">
             <!-- 1985 -->
             <div class="story__item">
@@ -139,7 +139,7 @@
               </p>
             </div>
           </div>
-          <img class="hidden" src="../IMG/meeting.png" alt="" />
+          <img class="hidden lg:block lg:rounded-3xl lg:h-[30rem] lg:object-cover" src="../IMG/meeting.png" alt="" />
         </div>
       </div>
     </section>

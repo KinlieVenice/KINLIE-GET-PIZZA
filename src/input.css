@@ -73,6 +73,12 @@
   .btn.bg-secondaryy {
     @apply bg-secondary border border-secondary text-black hover:bg-transparent;
   }
+  .btn.bg-secondaryy-menu {
+    @apply border border-r-white rounded-none py-0 w-full
+  }
+  .btn.bg-secondaryy-menu:last-child {
+    @apply border-r-0 
+  }
   .offer__tab img {
     @apply w-20;
   }
@@ -89,6 +95,13 @@
   }
   .offer__cards {
     @apply flex flex-col gap-4 justify-center items-center text-center py-10 border border-white rounded-xl;
+  }
+  .menu__cards {
+    @apply flex flex-col gap-4 justify-center items-center text-center pt-10 pb-5 rounded-xl lg:border lg:border-white lg:py-4;
+  }
+
+  .menu__cards img {
+    @apply lg:w-[7rem];
   }
   .offer__cards img {
     @apply w-32;
@@ -128,13 +141,17 @@
     @apply my-5;
   }
 
-  /* .tns-outer {
-    @apply overflow-hidden max-w-[25rem] mx-auto;
+  .menu__btn {
+    @apply font-bold text-tertiary cursor-pointer;
+  }
+  .menu__btn.active {
+    @apply text-primary;
   }
 
-  .tns-outer button {
-    @apply hidden;
-  } */
+  .contact input, .contact textarea {
+    @apply rounded-lg p-2 focus:outline-none text-black;
+  }
+
 }
 
 @layer utilities {

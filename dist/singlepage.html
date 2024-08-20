@@ -52,54 +52,63 @@
       </div>
     </section>
 
-    <!-- CONTACT LOCATION -->
-    <section class="location ">
+    <!-- RECIPE -->
+    <section class="recipe pt-40 pb-10">
       <div class="container">
-        <div class="contact__img h-[45rem] lg:w-[70rem] mx-auto pb-10">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4762.37186893726!2d121.34546637586834!3d14.055193590195447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bd5cd2d6006569%3A0x9075b8a72b9d5fb0!2sFrontline%20Business%20Solutions%2C%20Inc.!5e1!3m2!1sen!2sph!4v1724122961824!5m2!1sen!2sph"
-            width="100%"
-            height="100%"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+        <div class="recipe__img ">
+          <img
+            class="rounded-2xl h-[30rem] mx-auto object-cover"
+            src="../IMG/Prosciutto-singlepage.jpeg"
+            alt=""
+          />
+        </div>
+        <div class="recipe__wrapper items-start bg-secondary/40 p-10 mt-10 grid gap-20 max-w-[25rem] mx-auto lg:grid-cols-[1fr_2fr] lg:max-w-[40rem]">
+          <ul class="list-disc grid gap-3">
+            <h2 class="font-bold">Serving</h2>
+            <li>Prep: 15 mins</li>
+            <li>Cook: 10 mins</li>
+            <li>Total: 25 mins</li>
+            <li>Servings: 2 servings</li>
+            <li>Yield: 1 pizza</li>
+          </ul>
+
+          <ul class="list-disc grid gap-3">
+            <h2 class="font-bold">Ingredients</h2>
+            <li>1 tablespoon tomato paste</li>
+            <li>1 tablespoon water</li>
+            <li>Salt, to taste</li>
+            <li>2 tablespoons all-puspose flour</li>
+            <li>1(175 grams) ball store-brought or homemase pizza dough</li>
+            <li>3 ounces burrata cheese, cut into 1-inch pieces</li>
+            <li>4 thin slices prosciutto, torn in half lengthwise</li>
+            <li>1/2 cup lightly packes arugula leaves</li>
+            <li>Extra-virgin olive oil, for drizzling</li>
+            <li>1/4 cup shaved Parmesan cheese</li>
+          </ul>
+
+
         </div>
       </div>
     </section>
-
-    <!-- CONTACT BANNER -->
-    <section class="contact bg-secondary py-10">
+    <!-- CTA -->
+    <section class="cta bg-primary text-white py-10 lg:pb-0">
       <div class="container">
-        <div class="contact__wrapper grid gap-5 max-w-[40rem] mx-auto">
-          <h1 class="text-center font-bold">GET IN TOUCH</h1>
-          <form action="" class="grid gap-2">
-            <div class="contact__name grid grid-cols-2 gap-3">
+        <div
+          class="cta__wrapper flex flex-col items-center justify-center text-center lg:flex-row"
+        >
+          <img class="hidden lg:block lg:w-96" src="../IMG/chef.png" alt="" />
+          <div class="cta__details">
+            <h3 class="font-bold">LET'S CONNECT</h3>
+            <p class="mb-5">and get a 10% off bill offers and invites</p>
+            <div class="cta__input bg-white p-3">
               <input
-                class="text-white/50"
+                class="px-3 py-2 focus:text-black focus:outline-none"
                 type="text"
-                placeholder="First Name"
+                placeholder="YOUR EMAIL ADDRESS"
               />
-              <input
-                class="text-white/50"
-                type="text"
-                placeholder="Last Name"
-              />
+              <a class="btn bg-secondaryy" href="">SUBSCRIBE</a>
             </div>
-            <input
-              class="text-white/50"
-              type="email" 
-              placeholder="Email Address"
-            />
-            <input class="text-white/50" type="text" placeholder="Subject" />
-            <textarea
-              class="text-white/50 h-[10rem]"
-              type="text"
-              placeholder="Your Message"
-            ></textarea>
-          </form>
-          <a class="btn bg-primaryy justify-self-center" href="">SUBMIT FORM</a>
+          </div>
         </div>
       </div>
     </section>
